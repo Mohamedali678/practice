@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.nav {
+    
+    position: relative;
+    padding: 12px;
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    display: flex;
+    padding: 12px;
+}
+
+.links li {
+   
+    list-style: none;
+}
+
+.links a {
+    padding: 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.button {
+    position: absolute;
+    font-size: 40px;
+    right: 1rem;
+    display: none;
+  
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+        .button {
+            display: flex;
+        }
+
+        .links {
+            width: 100%;
+            display: none;
+        }
+
+        .nav {
+            padding: 1px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .links ul {
+            background-color:  aquamarine;
+           
+            flex-direction: column;
+        }
+
+        .links.active {
+            display: block;
+        }
+
+
+
+
+  
+}

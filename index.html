@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</head>
+<body>
+
+    <div class="nav">
+
+        <div class="brand"><h1>Nooty</h1> </div>
+
+        <a href="#" class="button"><iconify-icon icon="material-symbols:menu"></iconify-icon></a>
+        
+        <div class="links">
+        
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sevices</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+
+        </ul>
+    </div>
+
+    </div>
+
+    <script>
+
+            const toggleButton = document.querySelector('.button');
+            const navbarLinks = document.querySelector('.links');
+
+            toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+            })
+
+    </script>
+    
+</body>
+</html>
