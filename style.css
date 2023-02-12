@@ -9,7 +9,7 @@
 .nav {
     
     position: relative;
-    padding: 12px;
+    padding: 12px 60px;
     background-color: aquamarine;
     height: 60px;
     display: flex;
@@ -39,6 +39,41 @@
     display: none;
   
 }
+
+
+.main {
+    text-align: center;
+   
+    height: 500px;
+    background-color: coral;
+    margin: 20px 60px;
+    border-radius: 12px;
+}
+
+.main h1 {
+    padding-top: 10%;
+    color: white;
+    font-size: 60px;
+}
+
+.main p {
+    padding: 20px 200px;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+}
+
+
+.main button {
+    height: 60px;
+    width: 250px;
+    font-size: 22px;
+    border-radius: 42px;
+    border: none;
+}
+
+
+
 
 
 
